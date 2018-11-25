@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="th"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>พัฒนาทักษะการเขียนโปรแกรม PHP MySQL | แบ่งปันบทความ ฝึกฝนทักษะ เพื่อก้าวสู่อาชีพโปรแกรมเมอร์</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="stylesheet" type="text/css" media="all" href="devtool_files/style.css">
+<link rel="pingback" href="http://phpclass.pusku.com/xmlrpc.php">
+<link rel="alternate" type="application/rss+xml" title="พัฒนาทักษะการเขียนโปรแกรม PHP MySQL » Feed" href="http://phpclass.pusku.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="พัฒนาทักษะการเขียนโปรแกรม PHP MySQL » ความเห็น Feed" href="http://phpclass.pusku.com/comments/feed/">
+<link rel="stylesheet" id="admin-bar-css" href="devtool_files/admin-bar.css" type="text/css" media="all">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://phpclass.pusku.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://phpclass.pusku.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 3.5.1">
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 28px !important; }
+	* html body { margin-top: 28px !important; }
+</style>
+</head>
+
+<body class="home blog logged-in admin-bar  customize-support">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<h1 id="site-title">
+					<span>
+						<a href="http://www.sunzan-design.com/" title="พัฒนาทักษะการเขียนโปรแกรม PHP MySQL" rel="home">พัฒนาทักษะการเขียนโปรแกรม PHP MySQL</a>
+					</span>
+				</h1>
+				<div id="site-description">แบ่งปันบทความ ฝึกฝนทักษะ เพื่อก้าวสู่อาชีพโปรแกรมเมอร์</div>
+
+										<img src="devtool_files/path.jpg" alt="" height="198" width="940">
+								</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+				<div class="menu">
+					<ul>
+						<li class="current_page_item"><a href="http://www.sunzan-design.com/" title="หน้าแรก">หน้าแรก</a></li>
+						<li class="current_page_item"><a href="http://www.sunzan-design.com/search/label/PHP%20%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99" title="เรียนรู้การเขียนโปรแกรม PHP">PHP Basic</a></li>
+						<li class="current_page_item"><a href="http://www.sunzan-design.com/search/label/%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3%E0%B8%84%E0%B8%B3%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%87%20%28PHP%20Function%29" title="แนะนำคำสั่งน่าใช้งาน">PHP Function</a></li>
+						<li class="current_page_item"><a href="http://www.sunzan-design.com/search/label/%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%20%28PHP%20Labs%29" title="ห้องปฏิบัติการ เขียนโปรแกรม php">PHP Labs</a></li>
+						<li class="current_page_item"><a href="http://www.sunzan-design.com/search/label/%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B8%B5%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%20%28Case%20Studies%29" title="กรณีศึกษา การเขียนโปรแกรม PHP">Case Studies</a></li>
+					</ul>
+				</div>
+			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container">
+			<div id="content" role="main">
+
+	<div id="post-0" class="post error404 not-found">
+		<h1 class="entry-title">ซอร์สโค๊ด และตัวอย่างการทำงาน </h1>
+		<div class="entry-content">
+			<?php
+				$pageTitle = isset($_GET['title']) ? $_GET['title'] : '';
+			?>
+			<p><?php echo $pageTitle;?></p>
+			<div>
+				<?php 
+					$page = isset($_GET['page']) ? 'examples/'.$_GET['page'].'.php' : '';
+					if(file_exists($page)){
+						include($page);
+					}else{
+						echo '<p align="center" style="color:blue">ไม่พบหน้าเว็บที่ระบุครับ</p>';
+					}
+				?>
+			</div>
+		</div><!-- .entry-content -->
+	</div><!-- #post-0 -->
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+			<div id="site-info">
+				<a href="http://www.sunzan-design.com/" title="พัฒนาทักษะการเขียนโปรแกรม PHP MySQL" rel="home">
+					พัฒนาทักษะการเขียนโปรแกรม PHP MySQL				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+				ตัวอย่างซอร์สโค๊ด ::   naizan28@gmail.com
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+<script type="text/javascript" src="devtool_files/admin-bar.js"></script>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			
+
+		
+</body></html>

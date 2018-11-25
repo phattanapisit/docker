@@ -1,0 +1,11 @@
+#tbl_questionnaire th, #tbl_questionnaire td{
+	border : 1px solid #eeeeee;
+}
+
+.tr_title th{
+	background-color : #cccccc;
+}
+
+.no_data{
+	text-align : center;
+}

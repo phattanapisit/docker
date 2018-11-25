@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+td.datekey{
+	text-align : center;
+}
+
+td.datekey_title{
+	width : 150px;
+}
